@@ -243,7 +243,7 @@ export function SlotManagement({ onStatsUpdate }: SlotManagementProps) {
                       <Users className="h-4 w-4 text-muted-foreground" />
                       <span>Capacity: {slot.capacity}</span>
                     </div>
-                    <Badge variant="outline">By: {slot.createdBy.name}</Badge>
+                    <Badge variant="outline">By: {slot.createdBy?.name}</Badge>
                   </div>
 
                   <Button

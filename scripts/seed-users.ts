@@ -40,6 +40,13 @@ const seedUsers = [
     password: "tempPassword123",
     forcePasswordChange: true,
   },
+  {
+    name: "Sanchit Vohra",
+    email: "sanchitvohra_23ec179@dtu.ac.in",
+    role: "admin",
+    password: "tempPassword123",
+    forcePasswordChange: true,
+  }
 ]
 
 async function seedDatabase() {
