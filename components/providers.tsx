@@ -2,6 +2,7 @@
 
 import { SessionProvider } from "next-auth/react"
 import { Toaster } from "@/components/ui/sonner"  // Add this import
+import Footer from "./Footer"
 
 interface ProvidersProps {
   children: React.ReactNode
@@ -16,6 +17,7 @@ export function Providers({ children }: ProvidersProps) {
         richColors
         closeButton
       />
+      <Footer />
     </SessionProvider>
   )
 }

@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 import { Providers } from "../components/providers" // ✅ Import client wrapper
+import Footer from "@/components/Footer"
 
 export const metadata: Metadata = {
   title: "Photography & Videography Scheduling",
